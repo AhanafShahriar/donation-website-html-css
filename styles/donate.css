@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+button, input{
+    font-family: 'Inter', sans-serif;
+}
+.banner{
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url('../images/donation0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 670px;
+    text-align: center;
+    margin: auto;
+
+}
+.banner-text{
+    padding: 180px 500px;
+
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.primary-btn{
+    background-color: #FF5959;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 16px 22px;
+}
+.donation-amount{
+    text-align: center;
+    padding-right: 350px;
+    padding-left: 350px;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.section-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #707070;
+    padding:0 100px;
+    text-align: center;
+   
+    
+}
+.amount-btn{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.amount-btn button{
+    background-color: #FAFAFA;
+    padding: 45px 15px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+#selected-btn{
+    background-color: #FAFAFA;
+    padding: 45px 15px;
+    background: #FFEEEE;
+border: 2px solid #FF5959;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FF5959;
+}
+.donation-amount input{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #B3B3B3 ;
+    color:#B3B3B3;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+.donate-plan{
+    
+    padding-right: 350px;
+    padding-left: 350px;
+}
+.card{
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+
+    
+
+
+    
+}
+.card div{
+    padding: 54px 22px;
+}
+.food-card{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.shelter-card{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.education-card{
+    background: 	rgb(255, 253, 208);
+    border-radius: 5px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.card-description{
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
+#edu-icon{
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+}
+.lives{
+    margin: 0 auto;
+    display: flex;
+    column-gap: 200px;
+    padding-right: 350px;
+    padding-left: 350px;
+    padding-top: 150px;
+    
+}
+.lives-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+
+}
+.lives-description{
+    font-size: 18px;
+    
+    color: #707070;
+    
+    text-align: left;
+}
+.lives img{
+    height: 500px;
+    width: 500px;
+    margin-top: 170px;
+}
+.lives button{
+    margin-top: 30px;
+}
+.get-updates
+{
+    padding: 0 200px;
+}
+.update-card{
+    width: 900px;
+    margin: 0 auto;
+    background: #FFF4D6;
+    border-radius: 5px;
+
+}
+#subscribe{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+input[type="email"] {
+    height: 40px;
+    width: 500px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #707070;
+}
+
+input[type="submit"] {
+    margin-left: -88px;
+    height: 42px;
+    border: none;
+    padding: 0px 10px;
+    font-weight: 700;
+    background-color: #FF5959;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+footer{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0;
+    background-color: black;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 44px;
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+}
